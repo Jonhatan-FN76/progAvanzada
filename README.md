@@ -405,30 +405,43 @@ Escriba un programa que implemente un cifrado César. Permitir al usuario sumini
    [EJERCICIO 70](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio70.py).
  
   # **EJERCICIO 71**  *Raíz cuadrada*.
+  Escriba un programa que implemente el método de Newton para calcular y mostrar el cuadradoraíz de un número ingresado por el usuario. El algoritmo para el método de Newton sigue: Leer x del usuario Inicializar adivinar a x / 2 Mientras que adivinar no es lo suficientemente bueno Actualizar conjetura para que sea el promedio de conjetura y x / conjetura Cuando se completa este algoritmo, supongo que contiene una aproximación del cuadrado raíz. La calidad de la aproximación depende de cómo se defina "lo suficientemente bueno". En la solución del autor, la conjetura se consideraba suficientemente buena cuando el valor absoluto de la diferencia entre adivinar ∗ adivinar y x fue menor o igual a 10^12.
    [EJERCICIO 71](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio71.py).
    
   # **EJERCICIO 72**  *¿Es una cuerda un palíndromo?*.
+  Una cadena es un palíndromo si es idéntica hacia adelante y hacia atrás. Por ejemplo "anna", "Civic", "level" y "hannah" son ejemplos de palabras palindrómicas. Escribe un programa que lee una cadena del usuario y usa un bucle para determinar si es o no un palíndromo. Muestra el resultado, incluido un mensaje de salida significativo.
    [EJERCICIO 72](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio72.py).
    
   # **EJERCICIO 73**  *Palíndromos de palabras múltiples*.
+  Existen numerosas frases que son palíndromos cuando se ignora el espacio. Ejemplos incluyen "ir perro", "huir a mí elfo remoto" y "algunos hombres interpretan nueve notas", Entre muchos otros. Extienda su solución al Ejercicio 72 para que ignore el espaciado mientras determina si una cuerda es o no un palíndromo. Para un desafío adicional, extienda su solución para que también ignore los signos de puntuación y trate las mayúsculas y letras minúsculas como equivalentes.
    [EJERCICIO 73](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio73.py).
    
   # **EJERCICIO 74**  *Tabla de multiplicación*.
+  En este ejercicio creará un programa que muestra una tabla de multiplicación que
+muestra los productos de todas las combinaciones de enteros desde 1 por 1 hasta
+10 veces 10. Su tabla de multiplicar debe incluir una fila de etiquetas en la parte superior
+contiene los números del 1 al 10. También debe incluir etiquetas a la izquierda
+lado que consiste en los números del 1 al 10.
    [EJERCICIO 74](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio74.py).
    
   # **EJERCICIO 75**  *Máximo común divisor*.
+  Escriba un programa que lea dos enteros positivos del usuario y use este algoritmo para determinar e informar su mayor divisor común.
    [EJERCICIO 75](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio75.py).
   
   # **EJERCICIO 76**  *Factores primos*.
+  Escriba un programa que lea un número entero del usuario. Si el valor ingresado por el el usuario tiene menos de 2, entonces su programa debería mostrar un mensaje de error apropiado. De lo contrario, su programa debería mostrar los números primos que se pueden multiplicar juntos para calcular "n", con un factor que aparece en cada línea.
    [EJERCICIO 76](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio76.py).
    
   # **EJERCICIO 77**  *Binario a decimal*.
+  Escriba un programa que convierta un número binario (base 2) a decimal (base 10). Tu El programa debe comenzar leyendo el número binario del usuario como una cadena. Luego debe calcular el número decimal equivalente procesando cada dígito en el número binario. Finalmente, su programa debe mostrar el número decimal equivalente con un mensaje apropiado
    [EJERCICIO 77](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio77.py).
    
   # **EJERCICIO 78**  *Decimal a binario*.
+  Escriba un programa que convierta un número decimal (base 10) a binario (base 2). Leer el número decimal del usuario como un entero y luego use el algoritmo de división que se muestra a continuación para realizar la conversión. Cuando se completa el algoritmo, el resultado contiene la representación binaria del número. Mostrar el resultado, junto con un mensaje.
    [EJERCICIO 78](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio78.py).
    
   # **EJERCICIO 79**  *Número entero máximo*.
+  Crear un programa que comienza seleccionando un número entero aleatorio entre 1 y 100. Guarde esto entero como el número máximo encontrado hasta ahora. Después de que el entero inicial ha sido seleccionado, generar 99 enteros aleatorios adicionales entre 1 y 100. Verifique cada entero, ya que se genera para ver si es mayor que el número máximo encontrado hasta aquí.
    [EJERCICIO 79](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio79.py).
 
 # **EJERCICIO 80**  *Coin Flip Simulation*.
@@ -438,122 +451,152 @@ Cree un programa que use el generador de números aleatorios de Python para simu
 
 
 
-  # **EJERCICIO 81**  *Número entero máximo*.
+  # **EJERCICIO 81**  *Calcule la hipotenusa*.
+  Escribe una función que tome las longitudes de los dos lados más cortos de un triángulo rectángulo como sus parámetros Devuelve la hipotenusa del triángulo, calculada usando Pitágoras teorema, como resultado de la función. Incluya un programa principal que lea las longitudes de los lados más cortos de un triángulo rectángulo del usuario, usa su función para calcular el longitud de la hipotenusa, y muestra el resultado.  
    [EJERCICIO 81](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio81.py).
 
 
 
 
-  # **EJERCICIO 82**  *Número entero máximo*.
+  # **EJERCICIO 82**  *Tarifa taxi*.
+  Escriba una función que tome la distancia recorrida (en kilómetros) como su único parámetro y devuelve la tarifa total como su único resultado. Escribe un programa principal que demuestra la función.
    [EJERCICIO 82](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio82.py).
 
 
 
 
-  # **EJERCICIO 83**  *Número entero máximo*.
+  # **EJERCICIO 83** *Calculadora de envío*.
+Un minorista en línea ofrece envío expreso para muchos de sus artículos a una tarifa de $ 10.95 para el primer artículo y $ 2.95 por cada artículo posterior. Escribe una función que tome el número de elementos en el pedido como único parámetro. Devuelva los gastos de envío de
+el orden como resultado de la función. Incluya un programa principal que lea el número de artículos comprados al usuario y muestra los gastos de envío.
    [EJERCICIO 83](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio83.py).
 
 
 
 
-  # **EJERCICIO 84**  *Número entero máximo*.
+ 
+   # **EJERCICIO 84**  *Mediana de tres valores*.
+Escriba una función que tome tres números como parámetros y devuelva el valor medio de esos parámetros como resultado. Incluya un programa principal que lea tres valores de el usuario y muestra su mediana.
    [EJERCICIO 84](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio84.py).
 
 
 
 
-  # **EJERCICIO 85**  *Número entero máximo*.
+  
+  # **EJERCICIO 85**  *Convierta un número entero en su número ordinal*.
+En este ejercicio escribirás una función que toma un número entero como su único parámetro y devuelve un cadena que contiene el número ordinal inglés apropiado como único resultado.
    [EJERCICIO 85](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio79.py).
 
 
 
 
-  # **EJERCICIO 86**  *Número entero máximo*.
+
+  # **EJERCICIO 86**  *Los doce días de navidad*.
+Su tarea es escribir un programa que muestre la letra completa de The Twelve Días de navidad. Escribe una función que tome el número del verso como su único parámetro y muestra el verso especificado de la canción. Luego llame a esa función 12 veces con enteros que aumentan de 1 a 12.
    [EJERCICIO 86](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio86.py).
 
 
 
 
-  # **EJERCICIO 87**  *Número entero máximo*.
+
+  # **EJERCICIO 87**  *Centrar una cadena en la terminal*.
+Escriba una función que tome una cadena de caracteres como primer parámetro y el ancho de el terminal en caracteres como su segundo parámetro. Su función debería devolver un nuevo cadena que consta de la cadena original y el número correcto de espacios iniciales para que la cadena original aparezca centrada dentro del ancho proporcionado cuando está impreso.
    [EJERCICIO 87](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio87.py).
 
 
 
 
-  # **EJERCICIO 88**  *Número entero máximo*.
+ 
+  # **EJERCICIO 88**  *¿Es un triángulo válido?*.
+Escribe una función que determine si tres longitudes pueden o no formar un triángulo. La función tomará 3 parámetros y devolverá un resultado booleano. Además, escribe un programa que lee 3 longitudes del usuario y demuestra el comportamiento de este función.
    [EJERCICIO 88](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio88.py).
 
 
 
 
-  # **EJERCICIO 89**  *Número entero máximo*.
+ 
+   # **EJERCICIO 89**  *Capitalizarlo*.
+En este ejercicio, escribirás una función que capitaliza Los caracteres apropiados en una cadena. Una "i" minúscula debe ser reemplazada por una "I" mayúscula si está precedido y seguido por un espacio.
    [EJERCICIO 89](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio89.py).
 
 
 
 
-  # **EJERCICIO 90**  *Número entero máximo*.
+
+  # **EJERCICIO 90**  *¿Una cadena representa un número entero?*.
+Escriba un programa principal que lea una cadena del usuario e informe si o No representa un número entero. Asegúrese de que el programa principal no se ejecutará si el archivo que contiene su solución se importa a otro programa.
    [EJERCICIO 90](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio90.py).
 
 
 
 
-  # **EJERCICIO 91**  *Número entero máximo*.
+  
+  # **EJERCICIO 91**  *Precedencia del operador*.
+Escriba una función llamada precedencia que devuelva un número entero que represente la precedencia de un operador matemático. Una cadena que contiene el operador se pasará a la función como único parámetro
    [EJERCICIO 91](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio91.py).
 
 
 
 
-  # **EJERCICIO 92**  *Número entero máximo*.
+  
+  # **EJERCICIO 92**  *¿Es un número primo?*.
+Escriba una función que determine si su parámetro es primo o no, devolviendo Verdadero si es así, y falso de lo contrario. Escribe un programa principal que lea un número entero del usuario y muestra un mensaje que indica si es primo o no. Asegurar que el programa principal no se ejecutará si se importa el archivo que contiene su solución en otro programa.
    [EJERCICIO 92](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio92.py).
 
 
 
 
-  # **EJERCICIO 93**  *Número entero máximo*.
+ 
+  # **EJERCICIO 93**  *Próximo siguiente*.
+En este ejercicio creará una función llamada nextPrime que encuentra y devuelve el primer número primo más grande que un número entero, n. El valor de n se pasará a la función como su único parámetro. Incluya un programa principal que lea un número entero de el usuario y muestra el primer número primo mayor que el valor ingresado.
    [EJERCICIO 93](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio93.py).
 
 
 
 
-  # **EJERCICIO 94**  *Número entero máximo*.
+  # **EJERCICIO 94**  *Contraseña Aleatoria*.
+Escribe una función que genere una contraseña aleatoria. La contraseña debe tener un longitud aleatoria de entre 7 y 10 caracteres. Cada personaje debe ser al azar seleccionado de las posiciones 33 a 126 en la tabla ASCII. 
    [EJERCICIO 94](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio94.py).
 
 
 
 
-  # **EJERCICIO 95**  *Número entero máximo*.
+
+  # **EJERCICIO 95**  *Matrícula Aleatoria*.
+Escriba una función que genere una matrícula aleatoria. Tu función debería tener probabilidades aproximadamente iguales de generar una secuencia de caracteres para una licencia anterior placa o una nueva placa de matrícula. Escriba un programa principal que llame a su función y muestra la placa generada al azar.
    [EJERCICIO 95](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio95.py).
 
 
 
 
-  # **EJERCICIO 96**  *Número entero máximo*.
+  
+  # **EJERCICIO 96**  *Verificar una contraseña*.
+En este ejercicio escribirá una función que determina si una contraseña es o no es bueno. Definiremos una buena contraseña como una que tenga al menos 8 caracteres. largo y contiene al menos una letra mayúscula, al menos una letra minúscula y al menos un número.
    [EJERCICIO 96](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio96.py).
 
 
 
 
-  # **EJERCICIO 97**  *Número entero máximo*.
+  # **EJERCICIO 97**  *Buena contraseña aleatoria*.
+Usando sus soluciones para los Ejercicios 94 y 96, escriba un programa que genere un azar buena contraseña y la muestra. Cuente y muestre el número de intentos que fueron necesario antes de que se generara una buena contraseña. Estructura tu solución para que importa las funciones que escribió anteriormente y luego las llama desde una función llamado main en el archivo que crea para este ejercicio.
    [EJERCICIO 97](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio97.py).
 
 
 
 
-  # **EJERCICIO 98**  *Número entero máximo*.
+
+   # **EJERCICIO 98**  *Dígitos hexadecimales y decimales*.
+Escriba dos funciones, hex2int e int2hex, que conviertan entre hexadecimales dígitos (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E y F) y enteros de base 10.
    [EJERCICIO 98](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio98.py).
 
 
 
 
-  # **EJERCICIO 99**  *Número entero máximo*.
+   # **EJERCICIO 99**  *Conversiones de bases arbitrarias*.
+Escriba un programa que permita al usuario convertir un número de una base a otra. Su programa debe admitir bases entre 2 y 16 para el número de entrada y El número de resultado. Si el usuario elige una base fuera de este rango, entonces un apropiado Se debe mostrar un mensaje de error y el programa debe salir.
    [EJERCICIO 99](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio99.py).
 
 
 
-
-  # **EJERCICIO 100**  *Número entero máximo*.
-   [EJERCICIO 100](https://github.com/Jonhatan-FN76/progAvanzada/blob/master/ejercicio100.py).
 
 
 
